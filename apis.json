@@ -1,0 +1,43 @@
+{
+    "name": "Upcoming.org",
+    "description": "News, email and search are just the beginning. Discover more every day. Find your yodel.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/513-upcoming-org.jpg",
+    "tags": [
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/upcoming-org\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Upcoming.org",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/513-upcoming-org.jpg",
+            "humanURL": "http:\/\/upcoming.yahoo.com\/services\/api\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/upcoming-org-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "http:\/\/upcoming.yahoo.com\/services\/api\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/yahoo"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Yahoo"
+        }
+    ]
+}
