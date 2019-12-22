@@ -5,8 +5,8 @@
     "tags": [
         "have api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/upcoming-org\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -20,13 +20,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/upcoming-org-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/upcoming-org\/master\/upcoming-org-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/upcoming-org\/master\/upcoming-org-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Website",
             "url": "http:\/\/upcoming.yahoo.com\/services\/api\/"
